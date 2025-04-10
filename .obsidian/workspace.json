@@ -154,21 +154,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
+                "file": "Torch.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of Torch"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,8 +180,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf5b8f7e0b6b290c",
+  "active": "e4aa14c245a3e8df",
   "lastOpenFiles": [
+    "Images",
+    "Images/Pasted image 20250410152331.png",
     "Torch.md",
     "s10723-021-09549-z.pdf",
     "Welcome.md"
