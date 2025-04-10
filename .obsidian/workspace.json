@@ -168,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,8 +181,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e4aa14c245a3e8df",
+  "active": "bf5b8f7e0b6b290c",
   "lastOpenFiles": [
+    "Images/Pasted image 20250410162455.png",
     "Images",
     "Images/Pasted image 20250410152331.png",
     "Torch.md",
