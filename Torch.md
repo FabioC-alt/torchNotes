@@ -47,3 +47,23 @@ Using the two components joined creates a **clean, standardized and portable app
 # Orchestration Layer
 The TOSCA processor allows to convert TOSCA YAML templates into BPMN data inputs to configure pre-modelled BPMN models that the BPMN engine executes.
 
+
+## Tosca Processor
+Reads and validates the user's YAML application Template. Then converts the parsed inputs in BPMN Worflow, which is a diagram for automation.
+It extracts the informations like the deployment order, dependencies properties of each container.
+
+## BPMN Engine
+Takes the data from TOSCA processors and executes a **pre-designed workflow**. This workflow automates the deployment of applications components, handles failures, retries and escalations.
+
+## Process Creation
+![[Pasted image 20250410174155.png]]
+The begin of the process creation is based upon the previous steps.
+Each node is instanciated whit a "Instanciate Node" procedure.
+
+Then based on the Node that the TOSCA YAML required is possible to proceed with three different sub-process scenario.
+
+If an error is detected during one of this three sub-process an escalation is thrown by the relative "escalation and event".
+
+### Create Cloud Resource
+### Create Deployment Unit
+### Create Deploy Package
