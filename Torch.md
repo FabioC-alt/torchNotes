@@ -80,4 +80,5 @@ This mechanism allows for *service location transparency and loose coupling* bet
 
 *Cloud Resource Connectors* enables the provisioning of computational, network and storage resource specifically for a cloud provider.
 
-If we are dealing with a containerized application, the *Instantiate Cluster* connector interface provides an endpoint to deploy different kinds 
+If we are dealing with a containerized application, the *Instantiate Cluster* connector interface provides an endpoint to deploy different kinds of container.
+
