@@ -64,6 +64,20 @@ Then based on the Node that the TOSCA YAML required is possible to proceed with 
 
 If an error is detected during one of this three sub-process an escalation is thrown by the relative "escalation and event".
 
-### Create Cloud Resource
-### Create Deployment Unit
-### Create Deploy Package
+
+# Service Binding Layer
+This layer manages the provisioning of all the resources and services needed to deploy an application. This layer is composed by four components:
+
+## Service Bus
+This component is responsible for connecting the requests coming from the provisioning tasks with the provisioning services
+## Service Registry
+The *Service Registry* is responsible for the registration and discovery of the service connectors. 
+## Service Broker
+The *Service Broker* is in charge of taking care of the requests coming from the provisioning tasks.
+## Service Connectors
+The *Service Connectors* are modules that include the logic to provision a specific resource or service. Provides a unified interfaced models for the invocation of services.
+This mechanism allows for *service location transparency and loose coupling* between the BPMN plans and provisioning services. 
+
+*Cloud Resource Connectors* enables the provisioning of computational, network and storage resource specifically for a cloud provider.
+
+If we are dealing with a containerized application, the *Instantiate Cluster* connector interface provides an endpoint to deploy different kinds 

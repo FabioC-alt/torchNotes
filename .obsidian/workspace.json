@@ -4,21 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7788d5eaf454f513",
+        "id": "5f41973b55bf9635",
         "type": "tabs",
         "children": [
           {
-            "id": "b565f841318d2d81",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "bf5b8f7e0b6b290c",
+            "id": "18dcdfe03a2d7162",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +21,7 @@
               "title": "Torch"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,14 +170,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bf5b8f7e0b6b290c",
+  "active": "18dcdfe03a2d7162",
   "lastOpenFiles": [
-    "Pasted image 20250410174155.png",
+    "s10723-021-09549-z.pdf",
     "Torch.md",
+    "Images/Pasted image 20250410174155.png",
     "Images/Pasted image 20250410162455.png",
     "Images",
     "Images/Pasted image 20250410152331.png",
-    "s10723-021-09549-z.pdf",
     "Welcome.md"
   ]
 }
