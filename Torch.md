@@ -82,3 +82,4 @@ This mechanism allows for *service location transparency and loose coupling* bet
 
 If we are dealing with a containerized application, the *Instantiate Cluster* connector interface provides an endpoint to deploy different kinds of container.
 
+![[s005300050083.pdf]]
