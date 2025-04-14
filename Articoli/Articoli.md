@@ -1,4 +1,3 @@
-"nel frattempo, fai pure ricerche su google scholar su tematiche di QoS per sistemi distribuiti in ambito Cloud/Edge"
 
 The Measurement of Grid QoS Parameters:
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4283857
