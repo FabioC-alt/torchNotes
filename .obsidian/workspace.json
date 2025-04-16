@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8204361df6b572b8",
@@ -183,7 +184,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68c63fe023afac64",
+  "active": "75066bf263a78c43",
   "lastOpenFiles": [
     "ignoredFiles/Pasted image 20250416155520.png",
     "Torch.md",
