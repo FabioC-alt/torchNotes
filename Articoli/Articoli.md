@@ -26,3 +26,21 @@ https://ieeexplore.ieee.org/abstract/document/10184183?casa_token=xLVytItWKqcAAA
 
 QoS-aware architectures, technologies, and middleware for the cloud continuum
 https://amsdottorato.unibo.it/id/eprint/11000/
+
+
+eBPF: A New Approach to Cloud-Native Observability, Networking and Security for Current (5G) and Future Mobile Networks (6G and Beyond):
+https://ieeexplore.ieee.org/abstract/document/10138542
+
+Observatory: Fast and Scalable Systems Observability:
+https://cs.brown.edu/media/filer_public/81/8d/818d0534-f99f-4089-820a-5a7b9b52ff07/yalavartiarvind.pdf
+
+Towards Intelligent Pulverized Systems: a Modern
+Approach for Edge-Cloud Services⋆
+https://ceur-ws.org/Vol-3735/paper_19.pdf
+
+
+A distributed Cloud Continuum observability architecture to support Next Generation Networks:
+https://amslaurea.unibo.it/id/eprint/32233/
+
+AIDA—A holistic AI-driven networking and processing framework for industrial IoT applications
+https://www.sciencedirect.com/science/article/pii/S2542660523001282
