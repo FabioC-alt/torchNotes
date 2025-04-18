@@ -1,6 +1,6 @@
 
 The Measurement of Grid QoS Parameters:
-https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4283857
+https://ieeexplore.ieee.org/document/4283857
 
 Decision-Making Approaches for Performance
 QoS in Distributed Storage Systems: A Survey
