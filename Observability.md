@@ -93,4 +93,6 @@ To manage the infrastructures the orchestrators engines allow setting constraint
 To fully exploit the **contraints** and **criteria** we need to define the **targets**. The target can be applied per-component basis and/or per-application basis. 
 To refer internal application components is possible to use the **paths**. The application are characterized via **channels** that join a set of **components**.
 
-### Distributed Scheduling
+### Application Creation Workflow
+![[Pasted image 20250423172855.png]]
+## Implementation 
