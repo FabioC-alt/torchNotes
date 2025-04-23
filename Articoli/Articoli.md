@@ -1,6 +1,4 @@
-
-
- Taxonomy for QoS specifications
+Taxonomy for QoS specifications
 https://ieeexplore.ieee.org/abstract/document/609931
 Occhiata
 
@@ -24,7 +22,7 @@ eBPF può essere interessante ma la sua utilità nel nostro progetto va valutata
 Observatory: Fast and Scalable Systems Observability:
 https://cs.brown.edu/media/filer_public/81/8d/818d0534-f99f-4089-820a-5a7b9b52ff07/yalavartiarvind.pdf
 Questo serve per comprendere i principi dell'osservabilità
-
+**Utile per una comprensione generale**
 
 Towards Intelligent Pulverized Systems: a Modern
 Approach for Edge-Cloud Services⋆
