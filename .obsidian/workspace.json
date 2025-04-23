@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Torch.md",
+                "file": "Observability.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Torch"
+              "title": "Outline of Observability"
             }
           }
         ],
@@ -172,8 +172,11 @@
   },
   "active": "93e60907951942e9",
   "lastOpenFiles": [
-    "Articoli/Articoli.md",
+    "Pasted image 20250423155122.png",
+    "Pasted image 20250423154521.png",
+    "Pasted image 20250423152810.png",
     "Observability.md",
+    "Articoli/Articoli.md",
     "Torch.md",
     "Articoli/A survey of QoS architectures.pdf",
     "ignoredFiles/MultiCluster Torch.md",
