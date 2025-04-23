@@ -85,3 +85,12 @@ This is a generic representation of the **applications** that can be deployed on
 ![[Pasted image 20250423155122.png]]
 As multiple application will be run on the system, they need a *unique name* that will act as identifier.
 Each application is composed by different **components** which represent an executable piece.  Also each **component** require a unique name per application and are executed by the containers.
+The channels define the messages transmitted from a source to sink component. 
+Applications can be represented as DG(Directed Graphs), where **components** are graph's vertices and **channels** are the edges.
+To manage the infrastructures the orchestrators engines allow setting constraints on which a certain node can deploy the services. 
+**Constraints** are the first type of policy. Then there are the **Optimization Criteria** which allows configuring per application basis how the exact node from the set of potential target is choosen.
+
+To fully exploit the **contraints** and **criteria** we need to define the **targets**. The target can be applied per-component basis and/or per-application basis. 
+To refer internal application components is possible to use the **paths**. The application are characterized via **channels** that join a set of **components**.
+
+### Distributed Scheduling
