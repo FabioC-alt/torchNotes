@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articoli/Articoli.md",
+                "file": "Observability with fast and scalable techniques.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Articoli"
+              "title": "Observability with fast and scalable techniques"
             }
           }
         ]
@@ -174,9 +174,10 @@
   "lastOpenFiles": [
     "Torch.md",
     "Articoli/Articoli.md",
+    "Articoli/A survey of QoS architectures.pdf",
+    "Observability with fast and scalable techniques.md",
     "ignoredFiles/MultiCluster Torch.md",
     "ignoredFiles/Pasted image 20250416155520.png",
-    "Articoli/A survey of QoS architectures.pdf",
     "ignoredFiles",
     "s005300050083.pdf",
     "s10723-021-09549-z.pdf",
