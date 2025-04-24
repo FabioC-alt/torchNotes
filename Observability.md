@@ -95,4 +95,31 @@ To refer internal application components is possible to use the **paths**. The a
 
 ### Application Creation Workflow
 ![[Pasted image 20250423172855.png]]
-## Implementation 
+ 
+# Kubernetes
+Kubernetes provides an abstraction layer over the containers called pods. Pods allows defining a set of one or more containers that need to be deployed together with their context, resource and network specifications.
+
+Nodes are splitted into **control plane** and **execution plane** which derives that is possible to have **control plane nodes** and **execution nodes.**.
+If there are more than one **control plane nodes**, this configuration is called **high availability setups**. 
+To implement the Kube architecture there is the necessity to deploy 5 main system components. Four of these five are stored into the control plane and the last is placed inside the execution plane.
+The four control plane components are:
+- The API server
+- The ETCD
+- The controllers
+- The scheduler
+
+The component that runs on the execution plane is the **kubelet**.
+The communication inside the cluster is possible thanks to the **API server**. This component is also in charge of coordinating all the other system components.
+
+The **ETCD** is a NoSQL database that stores all the information about the infrastructure, the workload and the wanted status. 
+When multiple nodes are deployed in the control plane of a cluster these two components enhance the performances of the system.
+
+**Controllers** are in charge of implementing the Kube model, they translate the abstractions into pods.The pods configurations are then processed by the scheduler and assigned to one of the nodes in the execution plane.
+
+The last two components do not benefit from increased performance when a high availability setup is configured. 
+
+The last element of the Kube infrastructure is the **kubelet**, it is placed in every node and it is part of the execution plane. It handles the communications with the Kube system using the API server for both reporting the state of the node and executing the pods deployed by the scheduler
+
+## Architecture OverHaul
+ACOA (Application Centric Orchestration Architecture) further splits the control plane into two different layers, which requires a new node type.
+
