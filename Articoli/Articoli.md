@@ -20,6 +20,7 @@ Può tornare utile
 eBPF: A New Approach to Cloud-Native Observability, Networking and Security for Current (5G) and Future Mobile Networks (6G and Beyond):
 https://ieeexplore.ieee.org/abstract/document/10138542
 eBPF può essere interessante ma la sua utilità nel nostro progetto va valutata. Vale però la pena leggere
+status: **To be completed** -> stopped at "Why eBPF now?"
 
 Observatory: Fast and Scalable Systems Observability:
 https://cs.brown.edu/media/filer_public/81/8d/818d0534-f99f-4089-820a-5a7b9b52ff07/yalavartiarvind.pdf

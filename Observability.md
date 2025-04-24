@@ -166,4 +166,6 @@ eBPF is also aware of the activities that take place inside the node.
 In the service mesh context eBPF is able to create Service Mesh proxy to be shared across multiple pods, reducing the use of resources.
 Also the packet do not need to travel more and more times the network stack.
 
-### 
+# Taxonomy for QoS Specifications
+
+
