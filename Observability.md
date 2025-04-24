@@ -149,4 +149,21 @@ https://github.com/sustainable-computing-io/kepler
 Using eBPF allowds to skip all the network stack for communication using instead the kernel communication to send messages inside the network.
 Also is possible to use a eBPF to deploy a loadbalancer agent and replace the Kube-Proxy which can achieve better performace.
 ### Service Mesh 
+Service Meshes are dedicated infrastructure layer that can be added to applications or CNF micro-services. Service Meshes provide connectivity between applications at service level. 
+The traditional service meshes uses a **Shared Library Model**. Then the **Sidecar Model** was introduced, with eBPF is possible to move the Service Mesh functionality to a lower level, the kernel.
 
+#### Sidecar Model
+With the Sidecar model is possible to place the common code inside a container and run this container in each pod so that each pod is instrumented in the same manner.
+The container is the so-called *Sidecar Container*. Sidecar Container must run in the same *Network Namespace* as the application. The Sidecar deployment deployment can be performed using YAML manifest files or automatic mechanism offered by the Service Mesh implementation. 
+The Sidecar model not so efficient because each pod must be configured with adequate memory and CPU quotas for the applications. Also the state configurations must be replicated for each pod, thus consuming more memory.
+
+To encode traffic between application workload is possible to use tools like *IPsec* and *WireGuard*. These solutions are widely used and straightforward to implement.
+#### eBPF Model
+
+Since the eBPF program is loaded into the kernel there is no pod configuration modification to perform.
+eBPF is attached to the event, the event will trigger independently from the pod status. Also there is no need to restart or reconfigure the pod in question. 
+eBPF is also aware of the activities that take place inside the node.
+In the service mesh context eBPF is able to create Service Mesh proxy to be shared across multiple pods, reducing the use of resources.
+Also the packet do not need to travel more and more times the network stack.
+
+### 
