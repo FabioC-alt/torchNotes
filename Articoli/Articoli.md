@@ -1,10 +1,12 @@
 Taxonomy for QoS specifications
 https://ieeexplore.ieee.org/abstract/document/609931
-Occhiata
+Occhiata 
+
 
 Quality of Service Aware Orchestration for Cloud–Edge Continuum Applications:
 https://www.mdpi.com/1424-8220/22/5/1755
-Questo va sicuramente letto con cura
+Questo va sicuramente letto con cura 
+status: **To be Completed** -> Stopped at: *Architecture Overhaul*
 
 Continuous QoS-compliant orchestration in the Cloud-Edge continuum
 https://onlinelibrary.wiley.com/doi/full/10.1002/spe.3334?casa_token=noyAD0xXp0kAAAAA%3AKEFKqY_IvAbyUXczudM1vnjz-Zy3MZEXUQTz_A6Tcr6u9LGRIprljEi0AtD4AnuJoz8BkWDqQYbH1IcZ
@@ -23,6 +25,7 @@ Observatory: Fast and Scalable Systems Observability:
 https://cs.brown.edu/media/filer_public/81/8d/818d0534-f99f-4089-820a-5a7b9b52ff07/yalavartiarvind.pdf
 Questo serve per comprendere i principi dell'osservabilità
 **Utile per una comprensione generale**
+status: **Finished**
 
 Towards Intelligent Pulverized Systems: a Modern
 Approach for Edge-Cloud Services⋆

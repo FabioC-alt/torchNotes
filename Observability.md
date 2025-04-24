@@ -123,3 +123,30 @@ The last element of the Kube infrastructure is the **kubelet**, it is placed in 
 ## Architecture OverHaul
 ACOA (Application Centric Orchestration Architecture) further splits the control plane into two different layers, which requires a new node type.
 
+
+# Observability with eBPF
+The power of the eBPF project lays on three main pillars:
+- **eBPF programs** runs at kernel level and react to events
+- **User Space Programs** which loads the programs into the kernel and interact with them
+- **BPF Maps** allows data storage and information sharing between the user space program and the eBPF program
+### Development
+During development a program is typically written with a low level language like *C*
+or *Rust* and it is compiled into a executable and linkable format. The eBPF programs needs to be loaded into the kernel with a specific bytecode form. 
+Compilers like clang/LLVM can be used to compile restricted-C code into the wanted *bytecode*. 
+The *bytecode* file is stored inside a *ELF file*, which also contains the definitions of the *Maps* and the *BPF Type Format*.
+The *ELF File* is then stored inside the kernel using a monolithic approach and enable by the *bpf system calls*. 
+The *Maps* are useful to share the data in a variety of formats and to preserve the state.
+
+### Execution
+The eBPF is loaded into the kernel and compiled with JIT techniques. To interact with the kernel some libraries are necessary. Allowed libraries are:
+- *GO ebpf-go*
+- *C libbpf*
+
+KEPLER for eBPF metrics export and ML analysis:
+https://github.com/sustainable-computing-io/kepler
+
+## Container Networking
+Using eBPF allowds to skip all the network stack for communication using instead the kernel communication to send messages inside the network.
+Also is possible to use a eBPF to deploy a loadbalancer agent and replace the Kube-Proxy which can achieve better performace.
+### Service Mesh 
+
