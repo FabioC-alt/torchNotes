@@ -172,8 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,6 +186,7 @@
   },
   "active": "5e9e7a393adeeb76",
   "lastOpenFiles": [
+    "Pasted image 20250425102825.png",
     "Articoli/Articoli.md",
     "Observability.md",
     "Images/Pasted image 20250410174155.png",

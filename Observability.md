@@ -166,6 +166,38 @@ eBPF is also aware of the activities that take place inside the node.
 In the service mesh context eBPF is able to create Service Mesh proxy to be shared across multiple pods, reducing the use of resources.
 Also the packet do not need to travel more and more times the network stack.
 
+****
 # Taxonomy for QoS Specifications
 
+## QoS Driven Resource Management
+Systems are able to make trade-offs between the various aspects of application QoS because it understands each application's resource usage requirements as a function of the QoS that is provided
+The three main prospective considered when thinking about the resource management: 
+- Application
+- Resource 
+- System
+![[Pasted image 20250425102825.png]]
 
+#### Application Perspective
+The application wants to access the system to grant the user higher level of QoS, the execution is not concern of the application. This is called the **Application Perspective**.
+The application information are modeled using the abstraction, the structure of the application and the load that it places on the system resources.
+
+#### Resource Perspective
+The system perspective is the one that looks for the system resources and it is called **Resource Perspective**. Each resource is concerned only about managing access to itself and not about other resources or applications running onto other resources.
+
+#### System Perspective
+The system is composed of resources and support applications. The **System Perspective** captures all the system policies. The examples of such policies include: end-to-end scheduling policies or policies to decide which application's QoS to degrade when there are not enough resources to provide the desired QoS to all applications, admission control policies, policies governing the amount of effort and time that should be expended in attempting to find optimal resource allocation.
+
+The objectives of the individuals applications, resources and the system are likely to be conflicts. In QoS-driven resource management is a particularly interesting problem because it must account for all three perspectives.
+
+## QoS Definition
+
+
+
+To explore the concept of QoS, we can think about it as a combination of **metrics** and **policies**. The metrics measure specific quantifiable attributes of the system components, while the policies dictate the behavior of the system components. 
+### Metrics
+The metrics can be further splitted into three main categories: **Performance Metrics**, **Security Metrics** and **Cost Metrics**.
+
+The performance metrics are: 
+- Timeliness: Measure the specifications that are related to the timing constraints 
+- Precision: Measure the volume of the work
+- Accuracy: Measure the amount of errors done during the complention of the work
