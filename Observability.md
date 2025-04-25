@@ -250,3 +250,11 @@ The first is the possibility to pay for a better quality.
 
 ## Policies
 
+### Level of Service
+The **Level of Service** can be defined as the commitment for a task. The Service can either be *guaranteed service* or *best effor service*. 
+In *best effort* the system provide no benefit to the user, while in *guaranteed service* a certain a level of Quality of Service is promised. Level of service is a meta-specification of the QoS parameters. 
+
+Different levels of guaranteed service can be provided by the system. 
+
+### Management Policies
+The policies define the application specific actions taken by the resource manager under different situations.

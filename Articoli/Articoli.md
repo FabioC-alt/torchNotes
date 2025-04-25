@@ -1,7 +1,7 @@
 Taxonomy for QoS specifications
 https://ieeexplore.ieee.org/abstract/document/609931
 Occhiata 
-
+Status: **Finished** 
 
 Quality of Service Aware Orchestration for Cloud–Edge Continuum Applications:
 https://www.mdpi.com/1424-8220/22/5/1755
