@@ -35,7 +35,8 @@
               "title": "Observability"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -157,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articoli/Articoli.md",
+                "file": "Observability.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Articoli"
+              "title": "Outline of Observability"
             }
           }
         ],
@@ -183,10 +184,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "93e60907951942e9",
+  "active": "5e9e7a393adeeb76",
   "lastOpenFiles": [
-    "Observability.md",
     "Articoli/Articoli.md",
+    "Observability.md",
     "Pasted image 20250425111143.png",
     "Pasted image 20250425102825.png",
     "Images/Pasted image 20250410174155.png",

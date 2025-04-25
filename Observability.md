@@ -123,6 +123,7 @@ The last element of the Kube infrastructure is the **kubelet**, it is placed in 
 ## Architecture OverHaul
 ACOA (Application Centric Orchestration Architecture) further splits the control plane into two different layers, which requires a new node type.
 
+****
 
 # Observability with eBPF
 The power of the eBPF project lays on three main pillars:
@@ -165,6 +166,8 @@ eBPF is attached to the event, the event will trigger independently from the pod
 eBPF is also aware of the activities that take place inside the node.
 In the service mesh context eBPF is able to create Service Mesh proxy to be shared across multiple pods, reducing the use of resources.
 Also the packet do not need to travel more and more times the network stack.
+
+
 
 ****
 # Taxonomy for QoS Specifications
