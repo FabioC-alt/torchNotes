@@ -190,9 +190,6 @@ The system is composed of resources and support applications. The **System Persp
 The objectives of the individuals applications, resources and the system are likely to be conflicts. In QoS-driven resource management is a particularly interesting problem because it must account for all three perspectives.
 
 ## QoS Definition
-
-
-
 To explore the concept of QoS, we can think about it as a combination of **metrics** and **policies**. The metrics measure specific quantifiable attributes of the system components, while the policies dictate the behavior of the system components. 
 ### Metrics
 The metrics can be further splitted into three main categories: **Performance Metrics**, **Security Metrics** and **Cost Metrics**.
@@ -201,3 +198,55 @@ The performance metrics are:
 - Timeliness: Measure the specifications that are related to the timing constraints 
 - Precision: Measure the volume of the work
 - Accuracy: Measure the amount of errors done during the complention of the work
+### QoS Taxonomy
+
+![[Pasted image 20250425111143.png]]
+
+The Performance QoS is defined in terms of *timeliness*, *precision*, *accuracy*. The Performance metrics specify the parameters related to the performance of the task. An example is the **end-to-end** **delay**, the **volume of computation**, **bit-rate error**. The Performance parameter might be absolute or consistent-based.
+The *Relative Importance* represent the cost of the user willing to pay for a service of a given quality or a measure of the importance of the work.
+*Security Level* define the data security level that need to be provided to the applications.
+The *QoS management policies* define the actions to be taken by the system under different situations. A possible example may be the possibility to accept lower level of QoS in presence of scarcity of resource.
+
+## Performace Metrics
+### Timeliness
+Timeliness parameters calculate the metrics related to the time processing.
+Possible example of timeliness are:
+- Total Time Taken to complete a task -> Delay, Latency, ETA
+- Start Time, Deadline
+- Jitter -> this is a measure of the internal consistency 
+- Synchronization ->Mutual consistency 
+- Statistical Distribution of Parameters
+The first two blocks are absolute, the Jitter and Sync are necessary to understand the consistency specification. Then the last is able to give an overview over the entire system.
+
+### Precision
+Precision parameters specify the volume related quantities. Precision and accuracy require more detailed definition, since the same data can be viewed in different ways (and understood in different ways) by different components of the system.
+Since precision and accuracy are attributes of the data that flows through the application, it
+is important to distinguish between the content of the data in and the series of bits that represent the data. A given piece of data that is understood in terms of its data content can be represented by one or more data representations that differ in format and size. 
+We can define the volume of computational work as the total amount of computations (e.g. FLOPS) to complete the task. 
+
+Precision parameters can be:
+- Precision of content for input and output data
+- Precision of representation for input and output data
+- Internal Consistency 
+- Mutual Consistency
+- Statistical distribution
+
+### Accuracy
+Accuracy is the measure the counts the errors present into data introduced by the calculator. The higher is the precision the higher is the accuracy. But while the precision is the measure of the number of bits used to represent a certain data, the accuracy is the amount of correct amount of bits present in a data with a defined precision.
+
+Parameters necessary for calculating the accuracy are:
+- Accuracy of content for an input and a output data
+- Accuracy of representation for input and output data
+- Statistical Distribution of the Accuracy
+
+## Security Metrics
+The Security can be represented as the joins between parameters: Confidentiality and Integrity.
+**Confidentiality** is the problem of ensuring that the information doesn't get into the wrong hands, while **Integrity** is the problem of making sure that information is and remains accurate. 
+A third parameter is often used to determine Security and that is **Availability**. Availability is the problem of ensuring that there are sufficient computing resources to perform the required work at a desired time. 
+
+## Relative Importance
+I order to determine the priority of the application that needs to be executed it is possible to choose some parameters that discriminate between important tasks and less important.
+The first is the possibility to pay for a better quality. 
+
+## Policies
+
