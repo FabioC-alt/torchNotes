@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PowerPoint Presentation.md",
+                "file": "Observability.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PowerPoint Presentation"
+              "title": "Outline of Observability"
             }
           }
         ],
@@ -198,10 +198,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "788d922a8077b05b",
+  "active": "5e9e7a393adeeb76",
   "lastOpenFiles": [
-    "Observability.md",
     "PowerPoint Presentation.md",
+    "Observability.md",
     "Articoli/Articoli.md",
     "Pasted image 20250425111143.png",
     "Pasted image 20250425102825.png",
