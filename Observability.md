@@ -261,3 +261,7 @@ Different levels of guaranteed service can be provided by the system.
 
 ### Management Policies
 The policies define the application specific actions taken by the resource manager under different situations.
+
+****
+## Resource Efficient Microservice Deployment in Cloud-Edge Continuum for QoS-Aware Apps
+
