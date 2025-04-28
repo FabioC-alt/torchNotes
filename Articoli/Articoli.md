@@ -12,7 +12,7 @@ Continuous QoS-compliant orchestration in the Cloud-Edge continuum
 https://onlinelibrary.wiley.com/doi/full/10.1002/spe.3334?casa_token=noyAD0xXp0kAAAAA%3AKEFKqY_IvAbyUXczudM1vnjz-Zy3MZEXUQTz_A6Tcr6u9LGRIprljEi0AtD4AnuJoz8BkWDqQYbH1IcZ
 Anche questo mi pare interessante
 
-QoS-Aware and Resource Efficient Microservice Deployment in Cloud-Edge Continuum
+QoS-Aware and Resource Efficient Microservices Deployment in Cloud-Edge Continuum
 https://ieeexplore.ieee.org/abstract/document/9460542?casa_token=OmYPzN2fLc8AAAAA:j96W0_68dlPYtxWIB769dd821aNody94riLxX6mzRA5xs96RIiJDIJXuFepwCW1lt523fhNdGQ
 Può tornare utile
 

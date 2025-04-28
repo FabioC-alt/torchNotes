@@ -264,3 +264,13 @@ The policies define the application specific actions taken by the resource manag
 ****
 ## Resource Efficient Microservice Deployment in Cloud-Edge Continuum for QoS-Aware Apps
 
+
+
+****
+# Toward Intelligent Pulverized Systems: a Modern Approach for Edge-Cloud Services
+
+The pulverized approach propose a vision of the edge-cloud computing resources into multiple hosts, this is a crucial point for the fully exploiting continuum. 
+It is also possible to explore how macro programming approach can effectively capture the collective aspect of these type of systems.
+
+## Edge Cloud Continuum
+The highly distributed nature of the applications and the vast amount of generated data have driven the shift from a centralized cloud computing paradigm to a more distributed model, where the cloud is integrated with the edge.
