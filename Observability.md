@@ -152,7 +152,6 @@ Also is possible to use a eBPF to deploy a loadbalancer agent and replace the Ku
 ### Service Mesh 
 Service Meshes are dedicated infrastructure layer that can be added to applications or CNF micro-services. Service Meshes provide connectivity between applications at service level. 
 The traditional service meshes uses a **Shared Library Model**. Then the **Sidecar Model** was introduced, with eBPF is possible to move the Service Mesh functionality to a lower level, the kernel.
-
 #### Sidecar Model
 With the Sidecar model is possible to place the common code inside a container and run this container in each pod so that each pod is instrumented in the same manner.
 The container is the so-called *Sidecar Container*. Sidecar Container must run in the same *Network Namespace* as the application. The Sidecar deployment deployment can be performed using YAML manifest files or automatic mechanism offered by the Service Mesh implementation. 
