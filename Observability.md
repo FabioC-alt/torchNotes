@@ -274,3 +274,27 @@ It is also possible to explore how macro programming approach can effectively ca
 
 ## Edge Cloud Continuum
 The highly distributed nature of the applications and the vast amount of generated data have driven the shift from a centralized cloud computing paradigm to a more distributed model, where the cloud is integrated with the edge.
+
+****
+# A Review of QoS Architectures
+The current state of QoS provision in architectural frameworks can be summarized as follow:
+- *incompleteness*: current interfaces are generally not QoS configurable and provide only a smalle subset of the facilities needed for control and management of multimedia flows.
+- *lack of mechanism to support QoS guarantees*: new research needed in distributed control, monitoring and maintainance of QoS mechanism so that contracted levels of services can be predictable and assured.
+- *lack of overall framework*: it is necessary to develop an overall architectural framework to build on and reconcile the existing notion of quality of service at different systems levels and among different networks architecture.
+
+## Generalized QoS Framework
+Five principle motivate the design of a generalised QoS framework. 
+- **Integration Principle**: The quality of service must be configurable, predictable and maintainable
+- **Separation Principle**: Media transfer, control and management are functionally distinct architectural activities. The principle states that these tasks should be separated in architectural framework. 
+- **Transparency Principle**: states that applications should be shielded from the complexity of underlying QoS specifications and QoS management
+- **Asynchronous Resource Management**: division of functionality between architectural modules and pertains to the modeling of control and management mechanism
+- **Performance Principle**: which subsumes a number of widely agreed rules for QoS-driven communications implementation that guide the division of functionality in structuring communication protocols for high performance
+## QoS Specification
+The QoS specification is concerned with capturing application level quality of service requirements and management policies. 
+At each system layer the QoS specification is different and is used to configure and maintain QoS mechanism resident at each layer.
+The Quality of Service specification are:
+- *Flow Synchronization Specification*: characterize the degree of synchronization between multiple related flows. For example, simultaneously recorded video perspectives must be played in precise frame by frame synchrony so that relevant features might be simultaneously observed. 
+- *Flow Performance Specification*: ability to guarantee traffic throughput rate, delay, jitter and loss rate.
+- *Level of service*: specify the degree of end-to-end resource commitment required 
+- *QoS Management Policy*
+- *Cost of Service*

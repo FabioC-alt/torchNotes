@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8204361df6b572b8",
@@ -184,10 +185,11 @@
   },
   "active": "93e60907951942e9",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Observability.md",
     "eBPF.md",
     "Pasted image 20250429115925.png",
     "Pasted image 20250429104832.png",
-    "Observability.md",
     "Articoli/Articoli.md",
     "PowerPoint Presentation.md",
     "s10723-021-09549-z.pdf",
