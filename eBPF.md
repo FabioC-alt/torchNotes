@@ -7,10 +7,10 @@ eBPF allowds for:
 
 
 https://www.brendangregg.com/ebpf.html
-# Cilium 
+## Cilium 
 Mostly Service Mesh but can be used in combination with Hubble for observability.
 
-# Pixie
+## Pixie
 ## How it uses eBPF to collect data
 Pixies sets up eBPF probes to trigger a number of kernel or user-space events.
 When a probe triggers Pixies collects the data of interest from the event.
@@ -36,3 +36,13 @@ Built to run, build and distribute eBPF programs using OCI images. -> not an obs
 ## Parca
 Project for continuous profiling, collects, stores and make profiles available to be queried over time.
 ![[Pasted image 20250429115925.png]]
+
+## Tetragon 
+
+Few tools, with different functionalities.
+## OTel Integration
+It is possible to integrate these tools with OTel. 
+Cilium does not support anymore OTel.
+Parca is not integrated with OTel.
+Inspektor Gadget is not integrated with OTel.
+

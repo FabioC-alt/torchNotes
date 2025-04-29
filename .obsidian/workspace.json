@@ -35,8 +35,7 @@
               "title": "eBPF"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "eBPF.md",
+                "file": "Observability.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of eBPF"
+              "title": "Outline of Observability"
             }
           }
         ],
@@ -184,12 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "024cbaabd5653566",
+  "active": "93e60907951942e9",
   "lastOpenFiles": [
+    "eBPF.md",
     "Pasted image 20250429115925.png",
     "Pasted image 20250429104832.png",
     "Observability.md",
-    "eBPF.md",
     "Articoli/Articoli.md",
     "PowerPoint Presentation.md",
     "s10723-021-09549-z.pdf",
@@ -208,7 +207,6 @@
     "s005300050083.pdf",
     "Articoli.md",
     "Articoli",
-    "Images/Pasted image 20250410162455.png",
     "Images",
     "Welcome.md"
   ]
