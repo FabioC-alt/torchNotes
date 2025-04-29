@@ -295,6 +295,19 @@ At each system layer the QoS specification is different and is used to configure
 The Quality of Service specification are:
 - *Flow Synchronization Specification*: characterize the degree of synchronization between multiple related flows. For example, simultaneously recorded video perspectives must be played in precise frame by frame synchrony so that relevant features might be simultaneously observed. 
 - *Flow Performance Specification*: ability to guarantee traffic throughput rate, delay, jitter and loss rate.
-- *Level of service*: specify the degree of end-to-end resource commitment required 
-- *QoS Management Policy*
-- *Cost of Service*
+- *Level of service*: specify the degree of end-to-end resource commitment required from the flow.
+- *QoS Management Policy*: captures the degree of QoS adaptation that the flow can tolerate and scaling actions to be taken in the event of violations in the contracted QoS.
+- *Cost of Service*: specifies the price the user is willing to incur for the level of service. 
+## QoS Provision Mechanism
+The QoS provision is comprised of three components:
+- **QoS Mapping**: performs the function of automatic translation between representations of QoS at different system levels.
+- **Admission Testing:** responsible for comparing the resource requirement arising from the requested QoS against the available resource in the system.
+- **Resource Reservation Protocol**: arrange for the allocations of suitable end-system and network resource according to the user QoS specification. 
+## QoS Control Mechanism
+QoS control mechanism operate on timescales close to media transfer speed.
+They provide real-time traffic control of flow based on requested levels of QoS established during the QoS provision phase.
+- **Flow Shaping**: Regulated the flows based on user supplied flow performance specifications. The flow shaping can be based on a simple fixed rate throughput or some form of statistical representation.
+- **Flow Scheduling**: Manages the forwarding of flows int the end-system and network in an integrated manner.
+- **Flowing Policing**: Can be viewed as the dual of monitoring: associated with QoS management.
+- **Flow Control**: includes both open-loop and closed loop schemes: open loop flow control is used widely in telephony and allows the sender to inject data into the network at the agreed levels.
+- **Flow Synchronization**: required to control the event ordering and precise timing of multimedia interactions.
