@@ -28,4 +28,11 @@ Contains gadget to monitor most of the metrics necessary inside a microservice s
 
 Based upon the gadgets which are the central component in the Inspektor Gadget framework. 
 
-The that the eBPF collects from the kernel inclu
+The that the eBPF collects from the kernel includes no knowledge bout kubernetes. The potentiality is that this gadget can run in every high-level user-space concepts.
+
+## Bumblebee
+Built to run, build and distribute eBPF programs using OCI images. -> not an observability tool.
+
+## Parca
+Project for continuous profiling, collects, stores and make profiles available to be queried over time.
+![[Pasted image 20250429115925.png]]
