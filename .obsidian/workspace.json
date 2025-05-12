@@ -11,10 +11,14 @@
             "id": "34cad58bcc468842",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "PowerPoint Presentation.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "PowerPoint Presentation"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "8204361df6b572b8",
@@ -138,12 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "PowerPoint Presentation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of PowerPoint Presentation"
             }
           }
         ],
@@ -165,6 +171,7 @@
   },
   "active": "34cad58bcc468842",
   "lastOpenFiles": [
+    "Torch.md",
     "Untitled.md",
     "Articoli/Articoli.md",
     "Observability.md",
@@ -182,7 +189,6 @@
     "Images/Pasted image 20250423155122.png",
     "Images/Pasted image 20250423154521.png",
     "Images/Pasted image 20250423152810.png",
-    "Torch.md",
     "Articoli/A survey of QoS architectures.pdf",
     "ignoredFiles/Pasted image 20250416155520.png",
     "ignoredFiles",
