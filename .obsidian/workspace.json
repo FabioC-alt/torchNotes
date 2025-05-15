@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Articoli/Articoli.md",
+                "file": "PowerPoint Presentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Articoli"
+              "title": "PowerPoint Presentation"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Articoli/Articoli.md",
+                "file": "PowerPoint Presentation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Articoli"
+              "title": "Outline of PowerPoint Presentation"
             }
           }
         ],
@@ -170,10 +170,10 @@
   },
   "active": "34cad58bcc468842",
   "lastOpenFiles": [
+    "Articoli/Articoli.md",
     "PowerPoint Presentation.md",
     "Torch.md",
     "Untitled.md",
-    "Articoli/Articoli.md",
     "Observability.md",
     "Prevalence and Prevention of Large Language Model Use in Crowd Work.md",
     "eBPF.md",
